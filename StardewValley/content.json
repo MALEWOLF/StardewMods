@@ -53,6 +53,13 @@
         },
         {
             "Name": "VisualStyle",
+            "Value": "lbi",
+            "When": {
+                "HasMod": "SprngTHZ_Light_Blue_Interface"
+            }
+        },
+        {
+            "Name": "VisualStyle",
             "Value": "sni",
             "When": {
                 "HasMod": "SprngTHZ_Starry_Night_Interface"
