@@ -407,7 +407,8 @@
             "When": {
                 "Language": "th",
                 "ThaiInterface": true,
-                "Maps |contains={{TargetWithoutPath}}": true
+                "Maps |contains={{TargetWithoutPath}}": true,
+                "HasMod |contains=Rosalie.CuteValley": false
             }
         },
         {
@@ -500,7 +501,8 @@
             "When": {
                 "Language": "th",
                 "ThaiInterface": true,
-                "TileSheets |contains={{TargetWithoutPath}}": true
+                "TileSheets |contains={{TargetWithoutPath}}": true,
+                "HasMod |contains=Rosalie.CuteValley": false
             }
         },
 
