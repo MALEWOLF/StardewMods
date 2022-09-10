@@ -818,7 +818,7 @@
         "ParrotPlatform_Question": "ต้องการใช้เส้นทางด่วนสายนกแก้วหรือไม่?",
         "PlayerLimit": "จำกัดจำนวนผู้เล่น",
         "DisplayAdjustmentText": "กด ขึ้น/ลง เพื่อปรับขนาดหน้าจอ ให้พอดีกับหน้าจอของคุณ",
-        "NextPage": "Next page",
-        "PreviousPage": "Previous page"
+        "NextPage": "ถัดไป",
+        "PreviousPage": "ก่อนหน้า"
     }
 }
