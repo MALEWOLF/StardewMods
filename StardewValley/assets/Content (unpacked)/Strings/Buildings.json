@@ -32,7 +32,7 @@
         "Paint_Region_Building": "อาคาร",
         "Paint_Region_Roof": "หลังคา",
         "Paint_Region_Trim": "ขอบและประตู",
-        "BuildingSkinMenu_ChooseAppearance": "Select an appearance for your {0}.",
-        "Construction_ChooseLocation": "Where do you want to manage buildings?"
+        "BuildingSkinMenu_ChooseAppearance": "เลือกลักษณะที่ปรากฏสำหรับ {0} ของคุณ",
+        "Construction_ChooseLocation": "คุณต้องการจัดการอาคารที่ไหน?"
     }
 }
