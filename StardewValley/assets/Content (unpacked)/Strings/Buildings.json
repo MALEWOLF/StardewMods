@@ -18,7 +18,7 @@
     "content": {
         "UnderConstruction": "อยู่ระหว่างการก่อสร้าง",
         "DismountBeforeEntering": "ลงจากหลังม้าก่อน",
-        "PiecesOfHay": "ชิ้นส่วนของฟาง: {0}/{1}",
+        "PiecesOfHay": "ฟางที่เก็บไว้: {0}/{1}",
         "AddedHay": "เพิ่มฟางในยุ้งฉาง {0} ชิ้น",
         "MillFull": "ไม่มีพื้นที่ว่าง",
         "CantMill": "ไม่สามารถบดได้",
