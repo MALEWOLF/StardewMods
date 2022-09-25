@@ -509,9 +509,18 @@
         // load XNB impact
         {
             "Action": "Load",
-            "Target": "Data/BigCraftablesInformation, Data/Boots, Data/ClothingInformation, Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/winter8, Data/Fish, Data/Furniture, Data/hats, Data/ObjectInformation, Data/PaintData, Data/weapons",
+            "Target": "Data/BigCraftablesInformation, Data/Boots, Data/ClothingInformation, Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/winter8, Data/Fish, Data/Furniture, Data/hats, Data/ObjectInformation, Data/weapons",
             "FromFile": "assets/{{Branch}}/{{Target}}.xnb",
             "When": { "Language": "th" }
+        },
+        {
+            "Action": "Load",
+            "Target": "Data/PaintData",
+            "FromFile": "assets/{{Branch}}/{{Target}}.xnb",
+            "When": {
+                "Language": "th",
+                "Branch |contains=Compatibility": true
+            }
         },
 
         // Fix Pierre's Map Tooltip
