@@ -131,7 +131,7 @@
         // load data
         {
             "Action": "Load",
-            "Target": "Data/Achievements, Data/Blueprints, Data/Concessions, Data/CookingRecipes, Data/EngagementDialogue, Data/ExtraDialogue, Data/FarmAnimals, Data/mail, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/PaintData, Data/Quests, Data/SecretNotes",
+            "Target": "Data/Achievements, Data/Blueprints, Data/Concessions, Data/CookingRecipes, Data/EngagementDialogue, Data/ExtraDialogue, Data/FarmAnimals, Data/mail, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/Quests, Data/SecretNotes",
             "FromFile": "assets/Content/{{Target}}.xnb",
             "When": { "Language": "th" }
         },
@@ -509,7 +509,7 @@
         // load XNB impact
         {
             "Action": "Load",
-            "Target": "Data/BigCraftablesInformation, Data/Boots, Data/ClothingInformation, Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/winter8, Data/Fish, Data/Furniture, Data/hats, Data/ObjectInformation, Data/weapons",
+            "Target": "Data/BigCraftablesInformation, Data/Boots, Data/ClothingInformation, Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/winter8, Data/Fish, Data/Furniture, Data/hats, Data/ObjectInformation, Data/PaintData, Data/weapons",
             "FromFile": "assets/{{Branch}}/{{Target}}.xnb",
             "When": { "Language": "th" }
         },
