@@ -38,7 +38,7 @@
 
       // Billboard
       {
-        "Action": "EditImage",
+        "Action": "Load",
         "Target": "LooseSprites/Billboard",
         "FromFile": "assets/Content/{{Target}}.png",
         "When": {
@@ -50,7 +50,7 @@
 
       // JojaCDForm
       {
-        "Action": "EditImage",
+        "Action": "Load",
         "Target": "LooseSprites/JojaCDForm",
         "FromFile": "assets/Content/{{Target}}.png",
         "When": {
@@ -62,7 +62,7 @@
 
       // LanguageButtons
       {
-        "Action": "EditImage",
+        "Action": "Load",
         "Target": "LooseSprites/LanguageButtons",
         "FromFile": "assets/Content/{{Target}}.png",
         "When": {
@@ -94,7 +94,7 @@
 
       // Intro
       {
-        "Action": "EditImage",
+        "Action": "Load",
         "Target": "Minigames/Intro",
         "FromFile": "assets/Content/{{Target}}.json",
         "When": {
@@ -105,7 +105,7 @@
 
       // TitleButtons
       {
-        "Action": "EditImage",
+        "Action": "Load",
         "Target": "Minigames/TitleButtons",
         "FromFile": "assets/Content/{{Target}}.json",
         "When": {
@@ -142,15 +142,7 @@
       // Data
       {
         "Action": "Load",
-        "Target": "Data/Achievements, Data/BigCraftablesInformation, Data/Blueprints, Data/Boots, Data/Bundles, Data/ClothingInformation, Data/EngagementDialogue, Data/ExtraDialogue, Data/FarmAnimals, Data/hats, Data/mail, Data/Monsters, Data/NPCDispositions, Data/NPCGiftTastes, Data/ObjectInformation, Data/Quests, Data/SecretNotes, Data/weapons",
-        "FromFile": "assets/Content/{{Target}}.json",
-        "When": {"Language": "en"}
-      },
-
-      // Concessions, Movies & MoviesReactions
-      {
-        "Action": "Load",
-        "Target": "Data/Concessions, Data/Movies, Data/MoviesReactions",
+        "Target": "Data/Achievements, Data/BigCraftablesInformation, Data/Blueprints, Data/Boots, Data/Bundles, Data/ClothingInformation, Data/Concessions, Data/EngagementDialogue, Data/ExtraDialogue, Data/FarmAnimals, Data/hats, Data/mail, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/ObjectInformation, Data/Quests, Data/SecretNotes, Data/weapons",
         "FromFile": "assets/Content/{{Target}}.json",
         "When": {"Language": "en"}
       },
