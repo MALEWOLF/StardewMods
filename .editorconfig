@@ -25,19 +25,13 @@ charset = utf-8-bom
 [*.{ttinclude,tt}]
 insert_final_newline = false
 
-[README.txt]
-end_of_line=crlf
-
-[*.{command,sh}]
-end_of_line=lf
-
 ##########
 ## C# formatting
 ## documentation: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
 ##########
 [*.cs]
 
-#sort 'system' usings first
+# sort 'system' usings first
 dotnet_sort_system_directives_first = true
 
 # use 'this.' qualifier
@@ -78,6 +72,14 @@ csharp_style_inlined_variable_declaration = true:warning
 
 # avoid superfluous braces
 csharp_prefer_braces = false:hint
+
+# apply .NET naming conventions
+dotnet_naming_style.pascal_case_style.capitalization=pascal_case
+dotnet_naming_symbols.pascal_types.applicable_kinds=namespace, class, struct, interface, enum, property, method, field, event, delegate, type_parameter, local_function
+dotnet_naming_symbols.pascal_types.applicable_accessibilities=*
+dotnet_naming_rule.most_identifiers_should_be_pascal_case.symbols=pascal_types
+dotnet_naming_rule.most_identifiers_should_be_pascal_case.style=pascal_case_style
+dotnet_naming_rule.most_identifiers_should_be_pascal_case.severity=suggestion
 
 ##########
 ## Column guidelines
