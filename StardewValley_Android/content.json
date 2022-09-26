@@ -96,7 +96,7 @@
       {
         "Action": "Load",
         "Target": "Minigames/Intro",
-        "FromFile": "assets/Content/{{Target}}.json",
+        "FromFile": "assets/Content/{{Target}}.png",
         "When": {
             "Intro": "true",
             "Language": "en"
@@ -107,7 +107,7 @@
       {
         "Action": "Load",
         "Target": "Minigames/TitleButtons",
-        "FromFile": "assets/Content/{{Target}}.json",
+        "FromFile": "assets/Content/{{Target}}.png",
         "When": {
             "TitleButtons": "true",
             "Language": "en",
