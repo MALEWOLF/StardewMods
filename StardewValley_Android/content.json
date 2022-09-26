@@ -5,11 +5,15 @@
             "AllowValues": "true, false",
             "Default": "false"
         },
-        "TitleButtons": {
+        "Intro": {
             "AllowValues": "true, false",
             "Default": "true"
         },
-        "Intro": {
+        "jojacorps": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "TitleButtons": {
             "AllowValues": "true, false",
             "Default": "true"
         },
@@ -44,7 +48,7 @@
         "When": {
             "Billboard": "true",
             "Language": "en",
-            "HasMod |contains=Amaryn.OvergrownFloweryInterface, SabiMiyato.UImodTH, SabiMiyato.UIJollyRainbow, SMAPI.IYAHO_PinkDustInterface, SMAPI.IYAHO_PinkBlueInterface, megmom84.darkwoodinterface, BeneathThePlass.StarrySkyInterfaceCP, Maythorn.VintageInterfaceMultipack, ManaKirel.VMI, ManaKirel.VintageInterface2, ninthalley.TransparentBlueInterface": false
+            "HasMod |contains=Amaryn.OvergrownFloweryInterface, Maraluna.OvergrownFloweryInterface, BeneathThePlass.StarrySkyInterfaceCP, ChaseXavier.transparentinterface-black, Eyeyumi.SakuraInterface, hopewashere.transparentinterface-darkbrown, SMAPI.IYAHO_PinkBlueInterface, SMAPI.IYAHO_PinkDustInterface, Lita.StarblueValley, ManaKirel.VintageInterface2, ManaKirel.VMI, Maythorn.VintageInterfaceMultipack, megmom84.darkwoodinterface, ninthalley.CitrusInterface, ninthalley.TransparentBlueInterface, SabiMiyato.JollyRainbowInterface, SabiMiyato.UIJollyRainbow, SabiMiyato.UImodTH, vamoosi.RosierColoredGlasses, zazizu.darkUICP": false
         }
       },
 
@@ -56,7 +60,7 @@
         "When": {
             "JojaCDForm": "true",
             "Language": "en",
-            "HasMod |contains=SMAPI.IYAHO_PinkDustInterface": false
+            "HasMod |contains=SMAPI.IYAHO_PinkBlueInterface, SMAPI.IYAHO_PinkDustInterface": false
         }
       },
 
@@ -99,6 +103,18 @@
         "FromFile": "assets/Content/{{Target}}.png",
         "When": {
             "Intro": "true",
+            "Language": "en",
+            "HasMod |contains=Acerbicon.Recolor": false
+        }
+      },
+
+      // jojacorps
+      {
+        "Action": "Load",
+        "Target": "Minigames/jojacorps",
+        "FromFile": "assets/Content/{{Target}}.png",
+        "When": {
+            "jojacorps": "true",
             "Language": "en"
         }
       },
@@ -111,7 +127,7 @@
         "When": {
             "TitleButtons": "true",
             "Language": "en",
-            "HasMod |contains=Amaryn.OvergrownFloweryInterface, SabiMiyato.UImodTH, SabiMiyato.UIJollyRainbow, SMAPI.IYAHO_PinkDustInterface, SMAPI.IYAHO_PinkBlueInterface, megmom84.darkwoodinterface, BeneathThePlass.StarrySkyInterfaceCP, Maythorn.VintageInterfaceMultipack, ManaKirel.VMI, ManaKirel.VintageInterface2, ninthalley.TransparentBlueInterface": false
+            "HasMod |contains=Amaryn.OvergrownFloweryInterface, Maraluna.OvergrownFloweryInterface, BeneathThePlass.StarrySkyInterfaceCP, ChaseXavier.transparentinterface-black, Eyeyumi.SakuraInterface, hopewashere.transparentinterface-darkbrown, SMAPI.IYAHO_PinkBlueInterface, SMAPI.IYAHO_PinkDustInterface, Lita.StarblueValley, ManaKirel.VintageInterface2, ManaKirel.VMI, Mareigh.NickiTitle, Maythorn.VintageInterfaceMultipack, megmom84.darkwoodinterface, ninthalley.CitrusInterface, ninthalley.TransparentBlueInterface, SabiMiyato.JollyRainbowInterface, SabiMiyato.UIJollyRainbow, SabiMiyato.UImodTH, TrixxedHeart.OmoValley": false
         }
       },
 
