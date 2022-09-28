@@ -184,7 +184,7 @@
                 "Language": "th",
                 "ThaiInterface": true,
                 "LooseSprites |contains={{TargetWithoutPath}}": true,
-                "HasMod |contains=Amaryn.OvergrownFloweryInterface, Maraluna.OvergrownFloweryInterface, BeneathThePlass.StarrySkyInterfaceCP, ChaseXavier.transparentinterface-black, Eyeyumi.SakuraInterface, hopewashere.transparentinterface-darkbrown, IYAHO.PinkBlueInterface, IYAHO.PinkDustInterface, Lita.StarblueValley, ManaKirel.VintageInterface2, ManaKirel.VMI, Maythorn.VintageInterfaceMultipack, megmom84.darkwoodinterface, ninthalley.CitrusInterface, ninthalley.TransparentBlueInterface, SabiMiyato.JollyRainbowInterface, SabiMiyato.UIJollyRainbow, SabiMiyato.UImodTH, vamoosi.RosierColoredGlasses, zazizu.darkUICP": false
+                "HasMod |contains=BeneathThePlass.StarrySkyInterfaceCP, ChaseXavier.transparentinterface-black, Eyeyumi.SakuraInterface, hopewashere.transparentinterface-darkbrown, Lita.StarblueValley, ninthalley.CitrusInterface, ninthalley.TransparentBlueInterface": false
             }
         },
         /*{
@@ -214,8 +214,7 @@
             "When": {
                 "Language": "th",
                 "ThaiInterface": true,
-                "LooseSprites |contains={{TargetWithoutPath}}": true,
-                "HasMod |contains=IYAHO.PinkBlueInterface, IYAHO.PinkDustInterface": false
+                "LooseSprites |contains={{TargetWithoutPath}}": true
             }
         },
         {
@@ -226,7 +225,7 @@
                 "Language": "th",
                 "ThaiInterface": true,
                 "LooseSprites |contains={{TargetWithoutPath}}": true,
-                "HasMod |contains=IYAHO.PinkBlueInterface, IYAHO.PinkDustInterface, Lita.StarblueValley": false
+                "HasMod |contains=Lita.StarblueValley": false
             }
         },
 
@@ -453,8 +452,7 @@
             "When": {
                 "Language": "th",
                 "ThaiInterface": true,
-                "Minigames |contains={{TargetWithoutPath}}": true,
-                "HasMod |contains=Acerbicon.Recolor": false
+                "Minigames |contains={{TargetWithoutPath}}": true
             }
         },
         {
@@ -475,7 +473,7 @@
                 "Language": "th",
                 "ThaiInterface": true,
                 "Minigames |contains={{TargetWithoutPath}}": true,
-                "HasMod |contains=Amaryn.OvergrownFloweryInterface, Maraluna.OvergrownFloweryInterface, BeneathThePlass.StarrySkyInterfaceCP, ChaseXavier.transparentinterface-black, Eyeyumi.SakuraInterface, hopewashere.transparentinterface-darkbrown, IYAHO.PinkBlueInterface, IYAHO.PinkDustInterface, Lita.StarblueValley, ManaKirel.VintageInterface2, ManaKirel.VMI, Mareigh.NickiTitle, Maythorn.VintageInterfaceMultipack, megmom84.darkwoodinterface, ninthalley.CitrusInterface, ninthalley.TransparentBlueInterface, SabiMiyato.JollyRainbowInterface, SabiMiyato.UIJollyRainbow, SabiMiyato.UImodTH, TrixxedHeart.OmoValley": false
+                "HasMod |contains=BeneathThePlass.StarrySkyInterfaceCP, ChaseXavier.transparentinterface-black, Eyeyumi.SakuraInterface, hopewashere.transparentinterface-darkbrown, Lita.StarblueValley, megmom84.darkwoodinterface, ninthalley.CitrusInterface, TrixxedHeart.OmoValley": false
             }
         },
 
