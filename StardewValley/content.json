@@ -247,7 +247,8 @@
             "When": {
                 "Language": "th",
                 "ThaiInterface": true,
-                "Maps |contains={{TargetWithoutPath}}": true
+                "Maps |contains={{TargetWithoutPath}}": true,
+                "HasMod |contains=BeneathThePlass.slimehutchinteriorextended, BeneathThePlass.slimehutchinteriorvanilla": false
             }
         },
         {
