@@ -11,7 +11,7 @@
     "Hyper Speed-Gro": "909 1 881 3 768 1/Field/918/false/null/Hyper Speed-Gro",
 
     "Fairy Dust": "72 1 595 1/Home/872/false/null/Fairy Dust",
-    "Rare Seed": "770 20/Field/347/false/Foraging 9/Rare Seed",
+    "Rare Seed": "770 20/Field/347/false/Foraging 9/Rare Seed", // New recipe
     "Ancient Seeds": "114 1/Field/499/false/null/Ancient Seeds",
     "Wild Seeds (Sp)": "16 1 18 1 20 1 22 1/Field/495 10/false/Foraging 1/Wild Seeds (Sp)",
     "Wild Seeds (Su)": "396 1 398 1 402 1/Field/496 10/false/Foraging 4/Wild Seeds (Su)",
@@ -61,7 +61,7 @@
     "Ring of Yoba": "336 5 335 5 72 1/Home/524/false/Combat 7/Ring of Yoba",
     "Iridium Band": "337 5 768 50 769 50/Home/527/false/Combat 9/Iridium Band",
     "Wedding Ring": "337 5 74 1/Home/801/false/null/Wedding Ring",
-    "Burglar's Ring": "336 1 769 50/Home/526/false/Combat 8/Burglar's Ring",
+    "Burglar's Ring": "336 1 769 50/Home/526/false/Combat 8/Burglar's Ring", // New recipe
     "Thorns Ring": "881 50 390 50 336 1/Home/839/Ring/Combat 7/Thorns Ring",
     "Glowstone Ring": "768 5 335 5/Home/888/Ring/Mining 4/Glowstone Ring",
     "Gate": "388 10/Home/325/false/l 0/Gate",
