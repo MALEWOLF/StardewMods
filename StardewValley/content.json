@@ -564,7 +564,7 @@
             "Action": "EditData",
             "Target": "Strings/UI",
             "Entries": {
-                "About_Credit_Mobile": "\n= สร้างโดย ConcernedApe\n< เผยแพร่โดย Chucklefish\n= พอร์ทโดย Sickhead Games\n< กระจายท้องที่ โดย Playism & LocalizeDirect\n= เวอร์ชันมือถือ โดย The Secret Police\n      ",
+                "About_Credit_Mobile": "\n= สร้างโดย ConcernedApe\n< เผยแพร่โดย Chucklefish\n= พอร์ตโดย Sickhead Games\n< ปรับเนื้อหาโดย Playism & LocalizeDirect\n= เวอร์ชันมือถือโดย The Secret Police\n      ",
                 "mobile_options_vertical_toolbar": "แถบเครื่องมือแนวตั้ง",
                 "mobile_options_menu_side_margin": "เลื่อนในเมนู",
                 "mobile_options_toolbar_padding": "เลื่อนในแถบเครื่องมือ",
