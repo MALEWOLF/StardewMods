@@ -862,54 +862,33 @@
 
       //Adds rejection dialogue to all NPCs, preventing players from accidentally losing their property deed (250,000g)
 
-{    "Action": "EditData", "Target": "Characters/Dialogue/Alex", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Elliott", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Harvey", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Sam", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Sebastian", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Shane", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Abigail", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Emily", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Haley", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Leah", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Maru", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Penny", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Caroline", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Clint", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Demetrius", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Dwarf", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Evelyn", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/George", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Gus", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Jas", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Jodi", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Kent", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Krobus", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Leo", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Linus", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Marnie", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Pam", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Pierre", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Robin", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Sandy", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Vincent", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Willy", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Wizard", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Sophia", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Olivia", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Victor", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Andy", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Susan", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Morgan", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Lance", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Scarlett", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Apples", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/MarlonFay", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/GuntherSilvian", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Claire", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Martin", "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/Lewis", "When": { "HasSeenEvent": "6665293" }, "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..." }},
-{    "Action": "EditData", "Target": "Characters/Dialogue/MorrisTod", "When": { "HasSeenEvent |contains=6665293": false }, "Entries": { "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้ใครคนอื่น..." }},
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Alex, Characters/Dialogue/Elliott, Characters/Dialogue/Harvey, Characters/Dialogue/Sam, Characters/Dialogue/Sebastian, Characters/Dialogue/Shane, Characters/Dialogue/Abigail, Characters/Dialogue/Emily, Characters/Dialogue/Haley, Characters/Dialogue/Leah, Characters/Dialogue/Maru, Characters/Dialogue/Penny, Characters/Dialogue/Caroline, Characters/Dialogue/Clint, Characters/Dialogue/Demetrius, Characters/Dialogue/Dwarf, Characters/Dialogue/Evelyn, Characters/Dialogue/George, Characters/Dialogue/Gus, Characters/Dialogue/Jas, Characters/Dialogue/Jodi, Characters/Dialogue/Kent, Characters/Dialogue/Krobus, Characters/Dialogue/Leo, Characters/Dialogue/Linus, Characters/Dialogue/Marnie, Characters/Dialogue/Pam, Characters/Dialogue/Pierre, Characters/Dialogue/Robin, Characters/Dialogue/Sandy, Characters/Dialogue/Vincent, Characters/Dialogue/Willy, Characters/Dialogue/Wizard, Characters/Dialogue/Sophia, Characters/Dialogue/Olivia, Characters/Dialogue/Victor, Characters/Dialogue/Andy, Characters/Dialogue/Susan, Characters/Dialogue/Morgan, Characters/Dialogue/Lance, Characters/Dialogue/Scarlett, Characters/Dialogue/Apples, Characters/Dialogue/MarlonFay, Characters/Dialogue/GuntherSilvian, Characters/Dialogue/Claire, Characters/Dialogue/Martin",
+    "Entries": {
+        "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..."
+    }
+},
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Lewis",
+    "Entries": {
+        "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..."
+    },
+    "When": {
+        "HasSeenEvent": "6665293"
+    }
+},
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/MorrisTod",
+    "Entries": {
+        "reject_{{ObjectId: Property Deed}}": "%นี่เป็นของที่ต้องนำไปให้คนอื่น..."
+    },
+    "When": {
+        "HasSeenEvent |contains=6665293": false
+    }
+},
 
 
 
