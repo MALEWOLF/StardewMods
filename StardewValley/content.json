@@ -574,7 +574,7 @@
             }
         },
 
-        // load XNB impact
+        // load json impact
         {
             "Action": "Load",
             "Target": "Data/BigCraftablesInformation, Data/Boots, Data/ClothingInformation, Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/winter8, Data/Fish, Data/Furniture, Data/hats, Data/ObjectInformation, Data/Quests, Data/weapons",
@@ -593,8 +593,11 @@
             }
         },
 
-        // Fix Pierre's Map Tooltip
-        // Pierre stays closed on Wednesday unless all of the Community Center bundles are finished, and then Pierre's General Store will be open 7 days a week.
+        /**
+         * Fix Pierre's Map Tooltip
+         * Pierre stays closed on Wednesday unless all of the Community Center bundles are finished,
+         * and then Pierre's General Store will be open 7 days a week.
+         */
         {
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
