@@ -7,8 +7,13 @@
             "Default": true,
             "Section": "Appearance"
         },
+        "TidyCraftingMenu": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "Section": "Appearance"
+        },
 
-        // interface section
+        // details section
         "LooseSprites": {
             "AllowValues": "Billboard, ControllerMaps, Cursors, JojaCDForm, JunimoNote",
             "AllowMultiple": true,
@@ -40,6 +45,12 @@
     },
 
     "DynamicTokens": [
+        // branch
+        {
+            "Name": "Branch",
+            "Value": "Compatibility" // 1.5.6
+        },
+
         // visual style
         {
             "Name": "VisualStyle",
@@ -79,12 +90,6 @@
             "When": {
                 "HasMod": "ManaKirel.VintageInterface2"
             }
-        },
-
-        // branch: Content = 1.6.0, Compatibility = 1.5.6
-        {
-            "Name": "Branch",
-            "Value": "Compatibility"
         }
     ],
 
@@ -155,13 +160,25 @@
             }
         },
 
+        // load crafting recipes
+        {
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/Content/{{Target}}.json",
+            "When": {
+                "Language": "th",
+                "TidyCraftingMenu": false
+            }
+        },
+
         // load tidy crafting menu
         {
             "Action": "Load",
             "Target": "Data/CraftingRecipes",
             "FromFile": "assets/QoL/{{Target}}.json",
             "When": {
-                "Language": "th"
+                "Language": "th",
+                "TidyCraftingMenu": true
             }
         },
 
