@@ -64,6 +64,19 @@
             }
         },
 
+        // game version
+        {
+            "Name": "GameVersion",
+            "Value": "1.6.0"
+        },
+        {
+            "Name": "GameVersion",
+            "Value": "1.5.6",
+            "When": {
+                "LegacyMode |contains=enabled": true
+            }
+        },
+
         // visual style
         {
             "Name": "VisualStyle",
@@ -612,7 +625,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "spring_1_1": " =ยินดีต้อนรับสู่ Stardew Valley ภาษาไทย^  ใช้กับ Stardew Valley เวอร์ชัน 1.5.6 เท่านั้น!!^^   –– รายละเอียดการแปล ––^  เนื้อหา:^  – บทสนทนาของชาวเมือง   100%^  – จดหมาย & ไอเทมต่างๆ   100%^  – รสนิยมการรับของขวัญ   100%^  – บทสนทนาหลังแต่งงาน   100%^  – บทสนทนาทั่วไป   100%^  – งานเทศกาล   100%^  – เหตุการณ์ต่างๆ   100%^  – บทสนทนาพิเศษ   100%^^  รูปภาพ:^  – ข้อความภายในเกมที่เป็นรูปภาพ   90%^    (บางส่วนแปลไม่ได้เนื่องจากข้อความเล็กเกินไป)^^  +จัดทำและแปลโดย Translator Army^  Memee Thechoco, MemoLiza, Pookhao23, RushingOn, SabiMiyato, Tomyamkung.^^  <รายชื่อผู้โดเนทแอปขึ้น Play Store^  'ELL, Anonymous, Krit, Memee Thechoco.^^  =CODER & MODDER^  'ELL, SabiMiyato.^^  <ตัดต่อวิดีโอ & กราฟิก^  'ELL, RushingOn, SabiMiyato, Shibosan, PuChew.^^  <ผู้จัดทำเวอร์ชัน 1.0 – 1.8.8^  SORNZiLLATE, NoTSoXDream, JASON.^^  =ขอบคุณทีมงานเดิม^  Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.^^  <ทำเนียบนักแปล^  Davykun, iParnRequiem, PangInFN, ProfessorHydra, Tawan, unknownwmz.^^  <Chief Beta Tester^  Grace Manassanan.^^  =Beta tester^  Aek, Agist, Alice, Anel, BirdBBK, Kazuma, Mark, PadalPrussus, POo7x, TaNGGoDZeeD, The-Little-G, Venice, wa, zalxXxlaz.%item money 500 501 %%[letterbg 2][textcolor cyan][#]จดหมายจากทีมแปล"
+                "spring_1_1": " =ยินดีต้อนรับสู่ Stardew Valley ภาษาไทย^  ใช้กับ Stardew Valley เวอร์ชัน {{GameVersion}} เท่านั้น!!^^   –– รายละเอียดการแปล ––^  เนื้อหา:^  – บทสนทนาของชาวเมือง   100%^  – จดหมาย & ไอเทมต่างๆ   100%^  – รสนิยมการรับของขวัญ   100%^  – บทสนทนาหลังแต่งงาน   100%^  – บทสนทนาทั่วไป   100%^  – งานเทศกาล   100%^  – เหตุการณ์ต่างๆ   100%^  – บทสนทนาพิเศษ   100%^^  รูปภาพ:^  – ข้อความภายในเกมที่เป็นรูปภาพ   90%^    (บางส่วนแปลไม่ได้เนื่องจากข้อความเล็กเกินไป)^^  +จัดทำและแปลโดย Translator Army^  Memee Thechoco, MemoLiza, Pookhao23, RushingOn, SabiMiyato, Tomyamkung.^^  <รายชื่อผู้โดเนทแอปขึ้น Play Store^  'ELL, Anonymous, Krit, Memee Thechoco.^^  =CODER & MODDER^  'ELL, SabiMiyato.^^  <ตัดต่อวิดีโอ & กราฟิก^  'ELL, RushingOn, SabiMiyato, Shibosan, PuChew.^^  <ผู้จัดทำเวอร์ชัน 1.0 – 1.8.8^  SORNZiLLATE, NoTSoXDream, JASON.^^  =ขอบคุณทีมงานเดิม^  Artdekdok, cybertorns, MiXEL.SC, NoTSoXDream, Pigter, sornzilla, superogira.^^  <ทำเนียบนักแปล^  Davykun, iParnRequiem, PangInFN, ProfessorHydra, Tawan, unknownwmz.^^  <Chief Beta Tester^  Grace Manassanan.^^  =Beta tester^  Aek, Agist, Alice, Anel, BirdBBK, Kazuma, Mark, PadalPrussus, POo7x, TaNGGoDZeeD, The-Little-G, Venice, wa, zalxXxlaz.%item money 500 501 %%[letterbg 2][textcolor cyan][#]จดหมายจากทีมแปล"
             },
             "When": {
                 "Language": "th"
