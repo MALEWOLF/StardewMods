@@ -583,13 +583,15 @@
                 "Language": "th"
             }
         },
+
+        // load legacy file
         {
             "Action": "Load",
             "Target": "Data/PaintData",
             "FromFile": "assets/{{Branch}}/{{Target}}.json",
             "When": {
                 "Language": "th",
-                "Branch |contains=Compatibility": true
+                "LegacyMode |contains=enabled": true
             }
         },
 
