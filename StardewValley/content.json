@@ -45,10 +45,23 @@
     },
 
     "DynamicTokens": [
+        // legacy mode
+        {
+            "Name": "LegacyMode",
+            "Value": "enabled"
+        },
+
         // branch
         {
             "Name": "Branch",
-            "Value": "Compatibility" // 1.5.6
+            "Value": "Content"
+        },
+        {
+            "Name": "Branch",
+            "Value": "Compatibility",
+            "When": {
+                "LegacyMode |contains=enabled": true
+            }
         },
 
         // visual style
