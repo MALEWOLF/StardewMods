@@ -175,14 +175,26 @@
             }
         },
 
-        // load bundles data after junimo event
+        // load bundles
         {
             "Action": "Load",
             "Target": "Data/Bundles",
             "FromFile": "assets/Content/{{Target}}.json",
             "When": {
                 "Language": "th",
-                "HasFlag": "canReadJunimoText"
+                "LegacyMode |contains=enabled": false
+            }
+        },
+
+        // load bundles data after junimo event
+        {
+            "Action": "Load",
+            "Target": "Data/Bundles",
+            "FromFile": "assets/{{Branch}}/{{Target}}.json",
+            "When": {
+                "Language": "th",
+                "HasFlag": "canReadJunimoText",
+                "LegacyMode |contains=enabled": true
             }
         },
 
