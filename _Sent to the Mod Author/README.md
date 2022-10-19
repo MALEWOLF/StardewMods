@@ -24,14 +24,14 @@
 [Junimo Dialog]                     | [✓](JunimoDialog/i18n/th.json)                                 | [![@MemoLiza](https://avatars.githubusercontent.com/u/61897755?s=36)](https://github.com/MemoLiza)
 [Loan Mod]                          | [✓](LoanMod/i18n/th.json)                                      | [![@wwwarmblanket](https://avatars.githubusercontent.com/u/89137206?s=36)](https://github.com/wwwarmblanket)
 [Lookup Anything]                   | [✓](LookupAnything/i18n/th.json)                               |
-Love of Cooking[^1]                 | [✓](LoveOfCooking/i18n/th.json)                                |
+[Love of Cooking]                   | [✓](LoveOfCooking/i18n/th.json)                                | [![@SabiMiyato](https://avatars.githubusercontent.com/u/62402134?s=36)](https://github.com/SabiMiyato)
 [Noclip Mode]                       | [✓](NoclipMode/i18n/th.json)                                   |
 [NPC Map Locations]                 | [✓](NPCMapLocations/i18n/th.json)                              |
 [Reset Terrain Features For .NET 5] | [✓](ResetTerrainFeatures_NET5/i18n/th.json)                    | [![@ellipszist](https://avatars.githubusercontent.com/u/43781364?s=36)](https://github.com/ellipszist)  [![@SabiMiyato](https://avatars.githubusercontent.com/u/62402134?s=36)](https://github.com/SabiMiyato)
 [SMAPI]                             | [✓](smapi-internal/i18n/th.json)                               |
 [Stardrop]                          | [✓](Stardrop/i18n/th.json)                                     |
 [Tractor Mod]                       | [✓](TractorMod/i18n/th.json)                                   |
-UI Info Suite[^2]                   | [✓](UI%20Info%20Suite/i18n/th.json)                            |
+UI Info Suite[^1]                   | [✓](UI%20Info%20Suite/i18n/th.json)                            |
 [UI Info Suite 2]                   | [✓](UIInfoSuite2/i18n/th.json)                                 |
 
 [Alternative Textures]: https://www.nexusmods.com/stardewvalley/mods/9246
@@ -53,6 +53,7 @@ UI Info Suite[^2]                   | [✓](UI%20Info%20Suite/i18n/th.json)     
 [Junimo Dialog]: https://www.nexusmods.com/stardewvalley/mods/8937
 [Loan Mod]: https://www.nexusmods.com/stardewvalley/mods/3882
 [Lookup Anything]: https://www.nexusmods.com/stardewvalley/mods/541
+[Love of Cooking]: https://www.nexusmods.com/stardewvalley/mods/6830
 [Noclip Mode]: https://www.nexusmods.com/stardewvalley/mods/3900
 [NPC Map Locations]: https://www.nexusmods.com/stardewvalley/mods/239
 [Reset Terrain Features For .NET 5]: https://www.nexusmods.com/stardewvalley/mods/9350
@@ -60,5 +61,4 @@ UI Info Suite[^2]                   | [✓](UI%20Info%20Suite/i18n/th.json)     
 [Stardrop]: https://www.nexusmods.com/stardewvalley/mods/10455
 [Tractor Mod]: https://www.nexusmods.com/stardewvalley/mods/1401
 [UI Info Suite 2]: https://github.com/Annosz/UIInfoSuite2/releases
-[^1]: https://github.com/b-b-blueberry/CooksAssistant/pull/4
-[^2]: https://github.com/cdaragorn/Ui-Info-Suite/pull/79
+[^1]: https://github.com/cdaragorn/Ui-Info-Suite/pull/79
