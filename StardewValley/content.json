@@ -582,7 +582,7 @@
                 "Language": "th",
                 "ThaiInterface": true,
                 "TileSheets |contains={{TargetWithoutPath}}": true,
-                "HasMod |contains=Rosalie.CuteValley": false
+                "HasMod |contains=Rosalie.CuteValley, Yellog.YWB13": false
             }
         },
 
