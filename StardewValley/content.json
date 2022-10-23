@@ -64,6 +64,12 @@
             }
         },
 
+        // data path
+        {
+            "Name": "DataPath",
+            "Value": "assets/Content/Data"
+        },
+
         // game version
         {
             "Name": "GameVersion",
@@ -168,8 +174,17 @@
         // load data
         {
             "Action": "Load",
-            "Target": "Data/Achievements, Data/Blueprints, Data/Boots, Data/Concessions, Data/CookingRecipes, Data/EngagementDialogue, Data/ExtraDialogue, Data/FarmAnimals, Data/Fish, Data/mail, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/weapons",
+            "Target": "Data/Boots, Data/CookingRecipes, Data/EngagementDialogue, Data/ExtraDialogue, Data/FarmAnimals, Data/Fish, Data/mail, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/weapons",
             "FromFile": "assets/Content/{{Target}}.json",
+            "When": {
+                "Language": "th"
+            }
+        },
+
+        // include patches
+        {
+            "Action": "Include",
+            "FromFile": "{{DataPath}}/Achievements.json, {{DataPath}}/Blueprints.json, {{DataPath}}/Concessions.json",
             "When": {
                 "Language": "th"
             }
@@ -177,9 +192,8 @@
 
         // load bundles
         {
-            "Action": "Load",
-            "Target": "Data/Bundles",
-            "FromFile": "assets/Content/{{Target}}.json",
+            "Action": "Include",
+            "FromFile": "{{DataPath}}/Bundles.json",
             "When": {
                 "Language": "th",
                 "LegacyMode |contains=enabled": false
