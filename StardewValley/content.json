@@ -174,7 +174,7 @@
         // load data
         {
             "Action": "Load",
-            "Target": "Data/EngagementDialogue, Data/ExtraDialogue, Data/mail, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/weapons",
+            "Target": "Data/EngagementDialogue, Data/ExtraDialogue, Data/mail, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/weapons",
             "FromFile": "assets/Content/{{Target}}.json",
             "When": {
                 "Language": "th"
@@ -184,7 +184,7 @@
         // include patches
         {
             "Action": "Include",
-            "FromFile": "{{DataPath}}/Achievements.json, {{DataPath}}/Blueprints.json, {{DataPath}}/Boots.json, {{DataPath}}/Concessions.json, {{DataPath}}/FarmAnimals.json",
+            "FromFile": "{{DataPath}}/Achievements.json, {{DataPath}}/Blueprints.json, {{DataPath}}/Boots.json, {{DataPath}}/Concessions.json, {{DataPath}}/FarmAnimals.json, {{DataPath}}/Monsters.json",
             "When": {
                 "Language": "th"
             }
