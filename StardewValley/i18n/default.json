@@ -3,8 +3,6 @@
     "config.section.Appearance.description": "สิ่งที่ปรากฎในเกม",
     "config.ThaiInterface.name": "อินเตอร์เฟซภาษาไทย",
     "config.ThaiInterface.description": "ป้ายร้านค้าและเอกสารต่างๆ ภายในเกมเป็นภาษาไทย",
-    "config.TidyCraftingMenu.name": "จัดระเบียบเมนูการคราฟ",
-    "config.TidyCraftingMenu.description": "ทำให้เมนูการคราฟเป็นระเบียบมากยิ่งขึ้น",
     "config.section.Details.name": "รายละเอียด",
     "config.section.Details.description": "รายละเอียดต่างๆ ของอินเตอร์เฟซที่เปิดใช้งาน"
 }

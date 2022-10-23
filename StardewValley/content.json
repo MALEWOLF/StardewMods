@@ -7,11 +7,6 @@
             "Default": true,
             "Section": "Appearance"
         },
-        "TidyCraftingMenu": {
-            "AllowValues": "true, false",
-            "Default": true,
-            "Section": "Appearance"
-        },
 
         // details section
         "LooseSprites": {
@@ -209,28 +204,6 @@
                 "Language": "th",
                 "HasFlag": "canReadJunimoText",
                 "LegacyMode |contains=enabled": true
-            }
-        },
-
-        // load crafting recipes
-        {
-            "Action": "Load",
-            "Target": "Data/CraftingRecipes",
-            "FromFile": "assets/Content/{{Target}}.json",
-            "When": {
-                "Language": "th",
-                "TidyCraftingMenu": false
-            }
-        },
-
-        // load tidy crafting menu
-        {
-            "Action": "Load",
-            "Target": "Data/CraftingRecipes",
-            "FromFile": "assets/QoL/{{Target}}.json",
-            "When": {
-                "Language": "th",
-                "TidyCraftingMenu": true
             }
         },
 
