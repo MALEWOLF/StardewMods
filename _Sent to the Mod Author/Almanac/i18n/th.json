@@ -106,7 +106,7 @@
 
 	"page.notices.season": "หน้า {{item}} เริ่มตั้งแต่ {{start}} ถึง {{end}}",
 	"page.notices.summer": "คาดว่า กระแสน้ำมหาสมุทรในฤดูร้อน จะกระทบหาดเมืองเพลิแกน พร้อมกับเศษซากพิเศษ ตั้งแต่วันที่ 12 ถึง 14",
-	"page.notices.market": "ตลาดนัดราตรีเปิดเวลาดึก ตั้งแต่วันที่ 15 ถึง 17",
+	"page.notices.market": "ตลาดนัดกลางคืนเปิดเวลาดึก ตั้งแต่วันที่ 15 ถึง 17",
 
 	"page.notices.anniversary.no-s": "วันครบรอบของ {{name}} กับ {{spouse}}!",
 	"page.notices.anniversary.s": "วันครบรอบของ {{name}} กับ {{spouse}}!",
