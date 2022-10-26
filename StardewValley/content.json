@@ -223,7 +223,7 @@
         // load festivals
         {
             "Action": "Load",
-            "Target": "Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter25",
+            "Target": "Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/FestivalDates, Data/Festivals/winter25",
             "FromFile": "assets/Content/{{Target}}.json",
             "When": {
                 "Language": "th"
