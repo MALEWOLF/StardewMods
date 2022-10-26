@@ -598,6 +598,30 @@
             }
         },
 
+        // the text is shown in Junimo language
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "Entries": {
+                "CommunityCenter_AreaName_CraftsRoom": "Crafts Room"
+            },
+            "When": {
+                "Language": "th",
+                "HasFlag |contains=canReadJunimoText": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "JunimoNoteMenu.cs.10786": "We    the  Junimo are    happy to    aid  you.  In     return we     ask for gifts   of      the valley.    If you   are one     with    forest   magic    then you    will   see    the true    nature   of  this scroll."
+            },
+            "When": {
+                "Language": "th",
+                "HasFlag |contains=canReadJunimoText": false
+            }
+        },
+
         /**
          * Fix Pierre's Map Tooltip
          * Pierre stays closed on Wednesday unless all of the Community Center bundles are finished,
