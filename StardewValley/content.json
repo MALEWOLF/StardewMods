@@ -125,12 +125,12 @@
             "Action": "EditData",
             "Target": "Data/AdditionalLanguages",
             "Entries": {
-                "TranslatorArmy.ModTH": { // for technical reasons, you need to specify the ID here *and* in the "ID" field
+                "TranslatorArmy.ModTH": {
                     "ID": "TranslatorArmy.ModTH",
                     "LanguageCode": "th",
-                    "ButtonTexture": "{{InternalAssetKey: assets/button_{{VisualStyle}}.png}}", // load button texture
+                    "ButtonTexture": "{{InternalAssetKey: assets/button_{{VisualStyle}}.png}}",
                     "UseLatinFont": false,
-                    "FontFile": "{{InternalAssetKey: assets/Content/Fonts/Thai.fnt}}", // load font data file
+                    "FontFile": "{{InternalAssetKey: assets/Content/Fonts/Thai.fnt}}",
                     "FontPixelZoom": 1,
                     "FontApplyYOffset": true,
                     "TimeFormat": "[HOURS_12]:[MINUTES] [AM_PM]",
@@ -622,11 +622,7 @@
             }
         },
 
-        /**
-         * Fix Pierre's Map Tooltip
-         * Pierre stays closed on Wednesday unless all of the Community Center bundles are finished,
-         * and then Pierre's General Store will be open 7 days a week.
-         */
+        // fix Pierre's map tooltip
         {
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
