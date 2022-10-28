@@ -210,7 +210,7 @@
 			"Action": "EditData",
 		  	"Target": "data/festivals/summer28",
 		  	"Entries": {
-				"Sandy": "ฉันตื่นเต้นที่จะดูพวกมันนะ เราไม่มีแมงกระพรุนที่บ้านน่ะ อย่าว่าแต่แมงกระพรุนที่สวยๆ เลย!$h"
+				"Sandy": "ฉันตื่นเต้นที่จะดูพวกมันนะ เราไม่มีแมงกะพรุนที่บ้านน่ะ อย่าว่าแต่แมงกะพรุนที่สวยๆ เลย!$h"
 		  	},
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
