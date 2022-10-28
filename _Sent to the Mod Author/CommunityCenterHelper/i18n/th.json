@@ -210,7 +210,7 @@
 	"shopTravelingCartRandom": "รถเร่ขายของ (สุ่ม)",
 	"shopTravelingCartSeason": "รถเร่ขายของใน{{season}}",
 	"shopEggFestival": "บูทปิแอร์ในเทศกาลไข่ (ฤดูใบไม้ผลิ วันที่ 13)",
-	"shopFlowerDance": "บูทปิแอร์ในเทศกาลเต้นรำดอกไม้ (ฤดูใบไม้ผลิ วันที่ 24)",
+	"shopFlowerDance": "บูทปิแอร์ในเทศกาลระบำดอกไม้ (ฤดูใบไม้ผลิ วันที่ 24)",
 	"shopSpiritsEve": "บูทปิแอร์ในเทศกาลภูติ (ฤดูใบไม้ร่วง วันที่ 27)",
 	"shopUnknown": "???",
 	"randomlyAvailable": "สุ่ม", // appended in parentheses after shop name when item is only randomly in stock
