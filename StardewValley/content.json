@@ -206,7 +206,8 @@
             "FromFile": "assets/QoL/{{Target}}.json",
             "When": {
                 "Language": "th",
-                "TidyCraftingMenu": true
+                "TidyCraftingMenu": true,
+                "HasMod |contains=Boogie.Crafting": false
             }
         },
 
