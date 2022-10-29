@@ -3,7 +3,7 @@
 	"MenuCancelOption": "ยกเลิก",
 	"NoDestinations": "ไม่พบสถานีปลายทาง",
 	"ChooseDestination": "เลือกสถานีปลายทางที่ต้องการจะไป",
-	"TrainStationDisplayName": "สถานีสตาร์ดิวแวลลี่",
+	"TrainStationDisplayName": "สถานีสตาร์ดิวแวลลีย์",
 	"BoatStationDisplayName": "ร้านของวิลลี่",
 	"ArrivalMessage": "คุณได้มาถึง {{DestinationName}} แล้ว",
 	"GingerIsland":  "เกาะขิง"
