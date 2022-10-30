@@ -83,7 +83,7 @@
     // NPC descriptions
     "data.npc.pet.description": "สัตว์เลี้ยงของคุณ",
     "data.npc.horse.description": "ม้าของคุณ",
-    "data.npc.junimo.description": "วิญญาณแห่งป่าที่มาจากแห่งภูติ น้อยคนนักที่จะรู้จักพวกเขา",
+    "data.npc.junimo.description": "วิญญาณแห่งป่าที่มาจากโลกแห่งวิญญาณ น้อยคนนักที่จะรู้จักพวกเขา",
     "data.npc.trash-bear.description": "วิญญาณที่แสนเป็นมิตร ผู้คอยช่วยจัดการกับขยะ",
 
     // item types

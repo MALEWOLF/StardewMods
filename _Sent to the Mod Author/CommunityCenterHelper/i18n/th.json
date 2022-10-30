@@ -105,7 +105,7 @@
 
 	// Miscellaneous Sources
 	"luckyShorts": "ห้องของมานี (ในเควส Mayor's Shorts ฤดูร้อน วันที่ 3)",
-	"goldenPumpkin": "ในเขาวงกตของเทศกาลภูติ (ฤดูใบไม้ร่วง 27)",
+	"goldenPumpkin": "ในเขาวงกตของเทศกาลคืนแห่งวิญญาณ (ฤดูใบไม้ร่วง 27)",
 	"mermaidPearl": "ได้จากตลาดนัดกลางคืน (ฤดูหวาน 15-17) เรือนางเงือก {{hint}}",
 	"mermaidHint": " (1-5-4-2-3)", // included as hint for how to get the mermaid's pearl, if spoilers are allowed or secret note read
 	"winCraneGame": "ได้จากตู้เครนเกมที่โรงหนัง",
@@ -211,7 +211,7 @@
 	"shopTravelingCartSeason": "รถเร่ขายของใน{{season}}",
 	"shopEggFestival": "บูทปิแอร์ในเทศกาลไข่ (ฤดูใบไม้ผลิ วันที่ 13)",
 	"shopFlowerDance": "บูทปิแอร์ในเทศกาลระบำดอกไม้ (ฤดูใบไม้ผลิ วันที่ 24)",
-	"shopSpiritsEve": "บูทปิแอร์ในเทศกาลภูติ (ฤดูใบไม้ร่วง วันที่ 27)",
+	"shopSpiritsEve": "บูทปิแอร์ในเทศกาลคืนแห่งวิญญาณ (ฤดูใบไม้ร่วง วันที่ 27)",
 	"shopUnknown": "???",
 	"randomlyAvailable": "สุ่ม", // appended in parentheses after shop name when item is only randomly in stock
 	"mustHaveShipped": "ขาย {{item}}", // appended in parentheses after shop name if you have to have shipped a certain other item
