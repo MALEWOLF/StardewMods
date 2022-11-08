@@ -2,33 +2,8 @@
     "Format": "1.1.0",
     "AdditionalI18nPaths": [
         {
-            "LocalizedMod": "blueberry.LoveOfCooking",
-            "LocalizingSubdirectory": "LoveOfCooking",
-            "IgnoreMissingLocalizedMod": true
-        },
-        {
-            "LocalizedMod": "ceruleandeep.junimodialog",
-            "LocalizingSubdirectory": "JunimoDialog",
-            "IgnoreMissingLocalizedMod": true
-        },
-        {
-            "LocalizedMod": "CF.CP.DustyOverhaul",
-            "LocalizingSubdirectory": "DustyOverhaul",
-            "IgnoreMissingLocalizedMod": true
-        },
-        {
-            "LocalizedMod": "CF.CP.DustyOverhaulSVE",
-            "LocalizingSubdirectory": "DustyOverhaul",
-            "IgnoreMissingLocalizedMod": true
-        },
-        {
-            "LocalizedMod": "Digus.ProducerFrameworkMod",
-            "LocalizingSubdirectory": "ProducerFrameworkMod",
-            "IgnoreMissingLocalizedMod": true
-        },
-        {
-            "LocalizedMod": "DaisyNiko.SVR3",
-            "LocalizingSubdirectory": "StardewValleyReimagined3",
+            "LocalizedMod": "spacechase0.AnotherHungerMod",
+            "LocalizingSubdirectory": "AnotherHungerMod",
             "IgnoreMissingLocalizedMod": true
         },
         {
@@ -47,18 +22,13 @@
             "IgnoreMissingLocalizedMod": true
         },
         {
-            "LocalizedMod": "Maraluna.OvergrownFloweryInterface",
-            "LocalizingSubdirectory": "OvergrownFloweryInterface",
+            "LocalizedMod": "CF.CP.DustyOverhaul",
+            "LocalizingSubdirectory": "DustyOverhaul",
             "IgnoreMissingLocalizedMod": true
         },
         {
-            "LocalizedMod": "Amaryn.OvergrownFloweryInterface",
-            "LocalizingSubdirectory": "OvergrownFloweryInterface",
-            "IgnoreMissingLocalizedMod": true
-        },
-        {
-            "LocalizedMod": "spacechase0.AnotherHungerMod",
-            "LocalizingSubdirectory": "AnotherHungerMod",
+            "LocalizedMod": "CF.CP.DustyOverhaulSVE",
+            "LocalizingSubdirectory": "DustyOverhaul",
             "IgnoreMissingLocalizedMod": true
         },
         {
@@ -72,6 +42,11 @@
             "IgnoreMissingLocalizedMod": true
         },
         {
+            "LocalizedMod": "ceruleandeep.junimodialog",
+            "LocalizingSubdirectory": "JunimoDialog",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
             "LocalizedMod": "Xiddav.LittleRedSchoolHouse",
             "LocalizingSubdirectory": "LittleRedSchoolHouse",
             "IgnoreMissingLocalizedMod": true
@@ -79,6 +54,31 @@
         {
             "LocalizedMod": "Xiddav.LittleRedSchoolHouseRSV",
             "LocalizingSubdirectory": "LittleRedSchoolHouseRSV",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "blueberry.LoveOfCooking",
+            "LocalizingSubdirectory": "LoveOfCooking",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "Maraluna.OvergrownFloweryInterface",
+            "LocalizingSubdirectory": "OvergrownFloweryInterface",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "Amaryn.OvergrownFloweryInterface",
+            "LocalizingSubdirectory": "OvergrownFloweryInterface",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "Digus.ProducerFrameworkMod",
+            "LocalizingSubdirectory": "ProducerFrameworkMod",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "DaisyNiko.SVR3",
+            "LocalizingSubdirectory": "StardewValleyReimagined3",
             "IgnoreMissingLocalizedMod": true
         }
     ]
