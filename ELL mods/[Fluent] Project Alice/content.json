@@ -1,0 +1,85 @@
+﻿{
+    "Format": "1.1.0",
+    "AdditionalI18nPaths": [
+        {
+            "LocalizedMod": "blueberry.LoveOfCooking",
+            "LocalizingSubdirectory": "blueberry.LoveOfCooking",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "ceruleandeep.junimodialog",
+            "LocalizingSubdirectory": "ceruleandeep.junimodialog",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "CF.CP.DustyOverhaul",
+            "LocalizingSubdirectory": "CF.CP.DustyOverhaul",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "CF.CP.DustyOverhaulSVE",
+            "LocalizingSubdirectory": "CF.CP.DustyOverhaul",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "Digus.ProducerFrameworkMod",
+            "LocalizingSubdirectory": "Digus.ProducerFrameworkMod",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "DaisyNiko.SVR3",
+            "LocalizingSubdirectory": "DaisyNiko.SVR3",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "hawkfalcon.BetterJunimos",
+            "LocalizingSubdirectory": "hawkfalcon.BetterJunimos",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "hootless.BLDesert",
+            "LocalizingSubdirectory": "hootless.BLDesert",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "hootless.BusLocations",
+            "LocalizingSubdirectory": "hootless.BusLocations",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "Maraluna.OvergrownFloweryInterface",
+            "LocalizingSubdirectory": "Maraluna.OvergrownFloweryInterface",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "Amaryn.OvergrownFloweryInterface",
+            "LocalizingSubdirectory": "Maraluna.OvergrownFloweryInterface",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "spacechase0.AnotherHungerMod",
+            "LocalizingSubdirectory": "spacechase0.AnotherHungerMod",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "spacechase0.DynamicGameAssets",
+            "LocalizingSubdirectory": "spacechase0.DynamicGameAssets",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "tstaples.GiftTasteHelper",
+            "LocalizingSubdirectory": "tstaples.GiftTasteHelper",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "Xiddav.LittleRedSchoolHouse",
+            "LocalizingSubdirectory": "Xiddav.LittleRedSchoolHouse",
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "Xiddav.LittleRedSchoolHouseRSV",
+            "LocalizingSubdirectory": "Xiddav.LittleRedSchoolHouseRSV",
+            "IgnoreMissingLocalizedMod": true
+        }
+    ]
+}

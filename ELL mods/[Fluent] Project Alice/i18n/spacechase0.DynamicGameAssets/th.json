@@ -1,0 +1,6 @@
+﻿{
+    "item-tooltip.added-by-mod": "ม็อด: {{name}}",
+    "not-enough-ingredients": "ต้องการ {{item}} เพิ่มเติม",
+    "not-enough-ingredients-generic": "ส่วนผสมไม่เพียงพอสำหรับสูตรนี้",
+    "wrong-ingredient-selected": "ไม่มีสูตรที่มี {{item}} เป็นส่วนผสมหลัก"
+}

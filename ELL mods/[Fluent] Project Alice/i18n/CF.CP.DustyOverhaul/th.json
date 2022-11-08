@@ -1,0 +1,18 @@
+﻿{
+ "config.DogHouse Snow Roof.name": "Snow Roof",
+	"config.DogHouse Snow Roof.values.true": "true",
+	"config.DogHouse Snow Roof.values.false": "false",
+        "config.DogHouse Snow Roof.description": "Select whether the small doghouse has snow on it's roof in winter. For consistency with Elle's Seasonal Vanilla Buildings.",
+ "config.section.Settings.name": "DogHouse Settings",
+
+  "Dusty.Interaction.1":"You pet Dusty many times, he's a good dog!$0",
+  "Dusty.Interaction.2":"Dusty looks really happy today, he seems to appreciate the attention.$1",
+  "Dusty.Interaction.3":"Woof! Dusty looks pleased to see you. He licks your hand as you pet him.$4",
+  "Dusty.Interaction.4":"Dusty stares at you with his puppy-dog eyes... Maybe he wants a steak!$4",
+  "Dusty.FairInteraction.1":"Dusty seems a little scared of all the extra visitors in town, he looks content in his doghouse.",
+  "Dusty.FairInteraction.2":"Dusty is being a good boy and staying in his doghouse while the fair is underway.",
+  "Dusty.EggFestInteraction.1":"Dusty loves the Egg Festival, maybe because he knows he gets his own eggs. He's waiting patiently in his doghouse.",
+  "Dusty.EggFestInteraction.2":"Dusty wishes he could take part in the egg hunt, but he must stay in his doghouse.",
+  "Dusty.WinterStarInteraction.1": "Dusty looks pleased with his present, he's a lucky boy",
+  "Dusty.WinterStarInteraction.2": "Dusty waits eagerly for some leftovers, you'd think he loves them as much as steak!"
+}

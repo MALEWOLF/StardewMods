@@ -1,0 +1,78 @@
+﻿{
+    "config.Title Card Options.name": "โลโก้เกม Stardew Valley",
+    "config.Title Card Options.description": "ตัวเลือกต่างๆ สำหรับโลโก้บนเมนู",
+    "config.Title Card Options.values.plain": "เรียบๆ",
+    "config.Title Card Options.values.floral": "ดอกไม้",
+    "config.Title Card Options.values.morefloral": "ดอกไม้มากขึ้น",
+
+    "config.DigSpot Toggle.name": "จุดขุด",
+    "config.DigSpot Toggle.description": "เปลี่ยนจุดขุดเป็นดอกไม้",
+    "config.DigSpot Toggle.values.enabled": "เปิดใช้งาน",
+    "config.DigSpot Toggle.values.disabled": "ปิดการใช้งาน",
+
+    "config.DigSpot Color.name": "สีของจุดขุด",
+    "config.DigSpot Color.description": "เปลี่ยนสีของดอกไม้ตรงจุดขุด หากเปิดใช้งาน",
+    "config.DigSpot Color.values.red": "แดง",
+    "config.DigSpot Color.values.pink": "ชมพู",
+    "config.DigSpot Color.values.lilac": "ม่วงแดง",
+    "config.DigSpot Color.values.violet": "ม่วง",
+    "config.DigSpot Color.values.white": "ขาว",
+    "config.DigSpot Color.values.black": "ดำ",
+    "config.DigSpot Color.values.orange": "ส้ม",
+    "config.DigSpot Color.values.yellow": "เหลือง",
+    "config.DigSpot Color.values.blue": "น้ำเงิน",
+
+    "config.Kitty Channels.name": "ช่องน้องแมว",
+    "config.Kitty Channels.description": "เปลี่ยนช่องทีวีเป็นช่องน้องแมว",
+
+    "config.Farmer Portrait.name": "ภาพเหมือนชาวนา",
+    "config.Farmer Portrait.description": "เปลี่ยนพื้นหลังของภาพชาวนาที่พบในเมนู",
+    "config.Farmer Portrait.values.pixel": "พิกเซล",
+    "config.Farmer Portrait.values.realistic": "เหมือนจริง",
+    "config.Farmer Portrait.values.disabled": "ปิดการใช้งาน",
+
+    "config.Cursor Toggle.name": "เคอร์เซอร์",
+    "config.Cursor Toggle.description": "เปลี่ยนเคอร์เซอร์หรือพอยน์เตอร์",
+    "config.Cursor Toggle.values.enabled": "เปิดใช้งาน",
+    "config.Cursor Toggle.values.disabled": "ปิดการใช้งาน",
+
+    "config.Hit Box Toggle.name": "Hit box",
+    "config.Hit Box Toggle.description": "เปลี่ยน Hit box ของเครื่องมือ",
+    "config.Hit Box Toggle.values.enabled": "เปิดใช้งาน",
+    "config.Hit Box Toggle.values.disabled": "ปิดการใช้งาน",
+
+    "config.Gender Icons.name": "ไอคอนเพศ",
+    "config.Gender Icons.description": "เปลี่ยนสีไอคอนเพศเป็นสีน้ำเงินและสีชมพู",
+    "config.Gender Icons.values.enabled": "เปิดใช้งาน",
+    "config.Gender Icons.values.disabled": "ปิดการใช้งาน",
+
+    "config.Heart Icons.name": "ไอคอนหัวใจ",
+    "config.Heart Icons.description": "เปลี่ยนตัวบ่งชี้ความสัมพันธ์ในภาพเหมือนของ NPC",
+    "config.Heart Icons.values.enabled": "เปิดใช้งาน",
+    "config.Heart Icons.values.disabled": "ปิดการใช้งาน",
+
+    "config.Billboard Toggle.name": "กระดานปิดประกาศ",
+    "config.Billboard Toggle.description": "ยกเครื่องกระดานปิดประกาศและปฏิทิน",
+    "config.Billboard Toggle.values.enabled": "เปิดใช้งาน",
+    "config.Billboard Toggle.values.disabled": "ปิดการใช้งาน",
+
+    "config.Letter Toggle.name": "จดหมาย",
+    "config.Letter Toggle.description": "เปลี่ยนกระดาษสำหรับจดหมาย",
+    "config.Letter Toggle.values.enabled": "เปิดใช้งาน",
+    "config.Letter Toggle.values.disabled": "ปิดการใช้งาน",
+
+    "config.Latin Dialogue Font Change.name": "เปลี่ยนแบบอักษรบทสนทนาภาษาละติน",
+    "config.Latin Dialogue Font Change.description": "เปลี่ยนฟอนต์บทสนทนาภาษาละติน (font_bold)",
+    "config.Latin Dialogue Font Change.values.enabled": "เปิดใช้งาน",
+    "config.Latin Dialogue Font Change.values.disabled": "ปิดการใช้งาน",
+
+    "config.Dialogue Font Shadows.name": "เงาอักษรบทสนทนา",
+    "config.Dialogue Font Shadows.description": "เปิดใช้งานจะทำให้ฟอนต์บทสนทนาละตินมีเงาอ่อน ปิดการใช้งานเงาจะถูกลบ",
+    "config.Dialogue Font Shadows.values.enabled": "เปิดใช้งาน",
+    "config.Dialogue Font Shadows.values.disabled": "ปิดการใช้งาน",
+
+    "config.Small Font Toggle.name": "อักษรขนาดเล็ก",
+    "config.Small Font Toggle.description": "ใช้การเปลี่ยนแปลงกับอักษรสไปรท์ที่เล็กกว่าที่เกมใช้ ซึ่งอาจทำให้เกิดข้อผิดพลาดในข้อความที่แสดง ใช้เฉพาะเมื่อคุณต้องการเอฟเฟกต์แบบเก่า",
+    "config.Small Font Toggle.values.enabled": "เปิดใช้งาน",
+    "config.Small Font Toggle.values.disabled": "ปิดการใช้งาน"
+}
