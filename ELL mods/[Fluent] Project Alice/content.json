@@ -3,82 +3,82 @@
     "AdditionalI18nPaths": [
         {
             "LocalizedMod": "blueberry.LoveOfCooking",
-            "LocalizingSubdirectory": "blueberry.LoveOfCooking",
+            "LocalizingSubdirectory": "LoveOfCooking",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "ceruleandeep.junimodialog",
-            "LocalizingSubdirectory": "ceruleandeep.junimodialog",
+            "LocalizingSubdirectory": "JunimoDialog",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "CF.CP.DustyOverhaul",
-            "LocalizingSubdirectory": "CF.CP.DustyOverhaul",
+            "LocalizingSubdirectory": "DustyOverhaul",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "CF.CP.DustyOverhaulSVE",
-            "LocalizingSubdirectory": "CF.CP.DustyOverhaul",
+            "LocalizingSubdirectory": "DustyOverhaul",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "Digus.ProducerFrameworkMod",
-            "LocalizingSubdirectory": "Digus.ProducerFrameworkMod",
+            "LocalizingSubdirectory": "ProducerFrameworkMod",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "DaisyNiko.SVR3",
-            "LocalizingSubdirectory": "DaisyNiko.SVR3",
+            "LocalizingSubdirectory": "StardewValleyReimagined3",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "hawkfalcon.BetterJunimos",
-            "LocalizingSubdirectory": "hawkfalcon.BetterJunimos",
+            "LocalizingSubdirectory": "BetterJunimos",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "hootless.BLDesert",
-            "LocalizingSubdirectory": "hootless.BLDesert",
+            "LocalizingSubdirectory": "BLDesert",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "hootless.BusLocations",
-            "LocalizingSubdirectory": "hootless.BusLocations",
+            "LocalizingSubdirectory": "BusLocations",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "Maraluna.OvergrownFloweryInterface",
-            "LocalizingSubdirectory": "Maraluna.OvergrownFloweryInterface",
+            "LocalizingSubdirectory": "OvergrownFloweryInterface",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "Amaryn.OvergrownFloweryInterface",
-            "LocalizingSubdirectory": "Maraluna.OvergrownFloweryInterface",
+            "LocalizingSubdirectory": "OvergrownFloweryInterface",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "spacechase0.AnotherHungerMod",
-            "LocalizingSubdirectory": "spacechase0.AnotherHungerMod",
+            "LocalizingSubdirectory": "AnotherHungerMod",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "spacechase0.DynamicGameAssets",
-            "LocalizingSubdirectory": "spacechase0.DynamicGameAssets",
+            "LocalizingSubdirectory": "DynamicGameAssets",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "tstaples.GiftTasteHelper",
-            "LocalizingSubdirectory": "tstaples.GiftTasteHelper",
+            "LocalizingSubdirectory": "GiftTasteHelper",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "Xiddav.LittleRedSchoolHouse",
-            "LocalizingSubdirectory": "Xiddav.LittleRedSchoolHouse",
+            "LocalizingSubdirectory": "LittleRedSchoolHouse",
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "Xiddav.LittleRedSchoolHouseRSV",
-            "LocalizingSubdirectory": "Xiddav.LittleRedSchoolHouseRSV",
+            "LocalizingSubdirectory": "LittleRedSchoolHouseRSV",
             "IgnoreMissingLocalizedMod": true
         }
     ]
