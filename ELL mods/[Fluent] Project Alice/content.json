@@ -3,12 +3,12 @@
     "AdditionalI18nPaths": [
         {
             "LocalizedMod": "spacechase0.AnotherHungerMod",
-            "LocalizingSubdirectory": "AnotherHungerMod",
+            "LocalizingSubdirectory": "AnotherHungerMod", // TODO
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "hawkfalcon.BetterJunimos",
-            "LocalizingSubdirectory": "BetterJunimos",
+            "LocalizingSubdirectory": "BetterJunimos", // TODO
             "IgnoreMissingLocalizedMod": true
         },
         {
@@ -23,12 +23,12 @@
         },
         {
             "LocalizedMod": "CF.CP.DustyOverhaul",
-            "LocalizingSubdirectory": "DustyOverhaul",
+            "LocalizingSubdirectory": "DustyOverhaul", // TODO
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "CF.CP.DustyOverhaulSVE",
-            "LocalizingSubdirectory": "DustyOverhaul",
+            "LocalizingSubdirectory": "DustyOverhaul", // TODO
             "IgnoreMissingLocalizedMod": true
         },
         {
@@ -63,7 +63,7 @@
         },
         {
             "LocalizedMod": "spacechase0.NewGamePlus",
-            "LocalizingSubdirectory": "NewGamePlus",
+            "LocalizingSubdirectory": "NewGamePlus", // TODO
             "IgnoreMissingLocalizedMod": true
         },
         {
@@ -78,12 +78,12 @@
         },
         {
             "LocalizedMod": "Digus.ProducerFrameworkMod",
-            "LocalizingSubdirectory": "ProducerFrameworkMod",
+            "LocalizingSubdirectory": "ProducerFrameworkMod", // TODO
             "IgnoreMissingLocalizedMod": true
         },
         {
             "LocalizedMod": "DaisyNiko.SVR3",
-            "LocalizingSubdirectory": "StardewValleyReimagined3",
+            "LocalizingSubdirectory": "StardewValleyReimagined3", // TODO
             "IgnoreMissingLocalizedMod": true
         }
     ]
