@@ -16,6 +16,6 @@
     "config.Burglar Ring.description": "(แหวนจอมขโมย) มีโอกาสมากขึ้นที่มอนสเตอร์จะดรอปของ",
 
     // details
-    "config.section.Details.name": "รายละเอียด",
-    "config.section.Details.description": "รายละเอียดต่างๆ ของอินเตอร์เฟซที่เปิดใช้งาน"
+    "config.section.Details.name": "รายละเอียด (ปิดได้หากเจอปัญหา)",
+    "config.section.Details.description": "รายละเอียดต่างๆ ของอินเตอร์เฟซที่เปิดใช้งาน หากคุณพบปัญหา เช่น\n\nTwo content packs want to load the 'TileSheets/furniture' ...\n\nให้คุณปิดตัวเลือก  TileSheets: furniture  (ด้านล่าง)\nหรือ ติดต่อผู้พัฒนาม็อดภาษาไทย เพื่อให้สามารถทำงานร่วมกับม็อดดังกล่าวได้"
 }
