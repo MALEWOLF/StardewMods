@@ -166,10 +166,9 @@
         },
 
         // load data
-        // except: Data/CookingRecipes, Data/CraftingRecipes, Data/Fish
         {
             "Action": "Load",
-            "Target": "Data/Achievements, Data/Blueprints, Data/Boots, Data/Concessions, Data/EngagementDialogue, Data/ExtraDialogue, Data/FarmAnimals, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/weapons",
+            "Target": "Data/Achievements, Data/Blueprints, Data/Boots, Data/Concessions, Data/CookingRecipes, Data/EngagementDialogue, Data/ExtraDialogue, Data/FarmAnimals, Data/Fish, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/weapons",
             "FromFile": "assets/Content/{{Target}}.json",
             "When": {
                 "Language": "th"
@@ -196,6 +195,18 @@
                 "Language": "th",
                 "HasFlag": "canReadJunimoText",
                 "LegacyMode |contains=enabled": true
+            }
+        },
+
+        // load crafting recipes
+        {
+            "Action": "Load",
+            "Target": "Data/CraftingRecipes",
+            "FromFile": "assets/Content/{{Target}}.json",
+            "When": {
+                "Language": "th",
+                "TidyCraftingMenu": false,
+                "HasMod |contains=Boogie.Crafting": false
             }
         },
 
@@ -578,10 +589,9 @@
         },
 
         // load json impact
-        // except: Data/Furniture
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/Emily, Characters/Dialogue/Lewis, Data/BigCraftablesInformation, Data/ClothingInformation, Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/winter8, Data/hats, Data/mail, Data/ObjectInformation, Data/Quests, Data/SecretNotes",
+            "Target": "Characters/Dialogue/Emily, Characters/Dialogue/Lewis, Data/BigCraftablesInformation, Data/ClothingInformation, Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/winter8, Data/Furniture, Data/hats, Data/mail, Data/ObjectInformation, Data/Quests, Data/SecretNotes",
             "FromFile": "assets/{{Branch}}/{{Target}}.json",
             "When": {
                 "Language": "th"
