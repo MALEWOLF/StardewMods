@@ -13,6 +13,18 @@
             "Section": "Appearance"
         },
 
+        // new crafting recipes section
+        "Rare Seed": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "Section": "New Crafting Recipes"
+        },
+        "Burglar Ring": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "Section": "New Crafting Recipes"
+        },
+
         // details section
         "LooseSprites": {
             "AllowValues": "Billboard, ControllerMaps, Cursors, JojaCDForm, JunimoNote",
@@ -217,6 +229,36 @@
             "FromFile": "assets/QoL/{{Target}}.json",
             "When": {
                 "Language": "th",
+                "TidyCraftingMenu": true,
+                "HasMod |contains=Boogie.Crafting": false
+            }
+        },
+
+        // rare seed
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Rare Seed": null
+            },
+            "When": {
+                "Language": "th",
+                "Rare Seed": false,
+                "TidyCraftingMenu": true,
+                "HasMod |contains=Boogie.Crafting": false
+            }
+        },
+
+        // burglar's ring
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Burglar's Ring": null
+            },
+            "When": {
+                "Language": "th",
+                "Burglar Ring": false,
                 "TidyCraftingMenu": true,
                 "HasMod |contains=Boogie.Crafting": false
             }
