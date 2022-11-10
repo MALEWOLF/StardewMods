@@ -222,11 +222,11 @@
             }
         },
 
-        // load tidy crafting menu
+        // load tidy crafting menu by boogie
         {
             "Action": "Load",
             "Target": "Data/CraftingRecipes",
-            "FromFile": "assets/QoL/{{Target}}.json",
+            "FromFile": "assets/QoL/TidyCraftingMenu.json",
             "When": {
                 "Language": "th",
                 "TidyCraftingMenu": true,
