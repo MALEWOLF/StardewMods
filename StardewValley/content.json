@@ -140,7 +140,7 @@
                 "TranslatorArmy.ModTH": {
                     "ID": "TranslatorArmy.ModTH",
                     "LanguageCode": "th",
-                    "ButtonTexture": "{{InternalAssetKey: assets/button_{{VisualStyle}}.png}}",
+                    "ButtonTexture": "{{InternalAssetKey: assets/Internal/LooseSprites/button_{{VisualStyle}}.png}}",
                     "UseLatinFont": false,
                     "FontFile": "{{InternalAssetKey: assets/Content/Fonts/Thai.fnt}}",
                     "FontPixelZoom": 1,
@@ -222,11 +222,11 @@
             }
         },
 
-        // load tidy crafting menu by boogie
+        // load tidy crafting menu patcher
         {
             "Action": "Load",
             "Target": "Data/CraftingRecipes",
-            "FromFile": "assets/QoL/TidyCraftingMenu.json",
+            "FromFile": "assets/Internal/ModPatches/TidyCraftingMenuPatcher.json",
             "When": {
                 "Language": "th",
                 "TidyCraftingMenu": true,
@@ -654,10 +654,7 @@
         // load patches
         {
             "Action": "Include",
-            "FromFile": "assets/QoL/Patches/SDVAndroidPatcher.json, assets/QoL/Patches/SDVPatcher.json, assets/QoL/Patches/TranslatorArmy.json",
-            "When": {
-                "Language": "th"
-            }
+            "FromFile": "assets/Internal/Patches/SDVAndroidPatcher.json, assets/Internal/Patches/SDVPatcher.json, assets/Internal/TranslatorArmy.json"
         }
     ]
 }
