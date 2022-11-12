@@ -82,6 +82,11 @@
             "IgnoreMissingLocalizedMod": true
         },
         {
+            "LocalizedMod": "spacechase0.SkillTraining",
+            "LocalizingSubdirectory": "SkillTraining", // TODO
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
             "LocalizedMod": "DaisyNiko.SVR3",
             "LocalizingSubdirectory": "StardewValleyReimagined3", // TODO
             "IgnoreMissingLocalizedMod": true
