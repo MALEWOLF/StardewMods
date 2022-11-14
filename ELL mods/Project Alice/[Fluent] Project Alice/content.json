@@ -72,11 +72,6 @@
             "IgnoreMissingLocalizedMod": true
         },
         {
-            "LocalizedMod": "Amaryn.OvergrownFloweryInterface",
-            "LocalizingSubdirectory": "OvergrownFloweryInterface",
-            "IgnoreMissingLocalizedMod": true
-        },
-        {
             "LocalizedMod": "Digus.ProducerFrameworkMod",
             "LocalizingSubdirectory": "ProducerFrameworkMod", // TODO
             "IgnoreMissingLocalizedMod": true

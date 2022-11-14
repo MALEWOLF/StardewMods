@@ -105,7 +105,7 @@
             "Name": "VisualStyle",
             "Value": "ofi",
             "When": {
-                "HasMod |contains=Amaryn.OvergrownFloweryInterface, Maraluna.OvergrownFloweryInterface": true
+                "HasMod": "Maraluna.OvergrownFloweryInterface"
             }
         },
         {
