@@ -102,7 +102,12 @@
 	"page.mines.type.InfestedQuarry": "ชั้นที่มีมอนสเตอร์ ในเหมืองหินชุกชุม",
 	"page.mines.type.Dino": "ไดโนเสาร์ถ้ำ",
 
+	"page.error": "Error",
+	"page.error.desc": "An error occurred within this menu page. See the game log for more details.",
+
 	"page.notices": "ข่าวสารภายในเมือง",
+
+	"page.notices.birthday-error": "There was an error loading the list of game characters. Birthdays cannot be displayed. See the log for more details.",
 
 	"page.notices.season": "หน้า {{item}} เริ่มตั้งแต่ {{start}} ถึง {{end}}",
 	"page.notices.summer": "คาดว่า กระแสน้ำมหาสมุทรในฤดูร้อน จะกระทบหาดเมืองเพลิแกน พร้อมกับเศษซากพิเศษ ตั้งแต่วันที่ 12 ถึง 14",
@@ -167,6 +172,13 @@
 	"page.fish.filter.now": "ใช่ ในฤดูกาลนี้",
 	"page.fish.location.fresh": "{{fish}} อาศัยอยู่ในน้ำจืด",
 	"page.fish.location.ocean": "{{fish}} อาศัยอยู่ในน้ำเค็ม",
+
+	"page.fish.filter.aquarium": "Filter by Aquarium Donation",
+	"page.fish.aquarium.true": "Donated Only",
+	"page.fish.aquarium.false": "Not Donated Only",
+
+	"page.fish.aquarium.donated": "You have donated this to Stardew Aquarium.",
+	"page.fish.aquarium.not-donated": "You have not donated this to Stardew Aquarium.",
 
 	// Settings
 
@@ -303,6 +315,13 @@
 	"event.11022001.4": "ถึงจะ ไม่ใช่ของสำคัญอะไรมากมาย แต่การรู้ว่าอากาศ จะมีสภาพเป็นยังไงบ้าง มันก็แจ่มดีนะ เพราะปลาบางชนิด ออกมาหาอาหาร เฉพาะเวลาฝนตกเท่านั้น รู้รึเปล่า",
 	"event.11022001.5": "ฉันไม่กวนละ ขอให้โชคดี @",
 
+	// Times
+	// If this is set, we'll use a custom format for times displayed by Almanac
+	// rather than using the game's built-in getTimeOfDayString method.
+	// See https://stardewvalleywiki.com/Modding:Custom_languages#Data_format for
+	// details. (Specifically, TimeFormat in the data format table.)
+	"time-format": "",
+
 	// Locations
 
 	"location.WitchSwamp": "บึงน้ำของแม่มด",
@@ -316,6 +335,8 @@
 	"location.IslandSouthEastCave": "เกาะขิงฝั่งตะวันออกเฉียงใต้ (ถ้ำ)",
 	"location.IslandEast": "เกาะขิงฝั่งตะวันออก",
 
+	"location.Submarine": "Submarine",
+
 	"location.sub-any": "ทั้งหมด",
 	"location.sub-floor": "ชั้น {{floor}}",
 
@@ -327,7 +348,6 @@
 
 	// Maps: Stardew Aquarium
 	"location.Custom_ExteriorMuseum": "สตาร์ดิวอควาเรียม",
-	"location.ExteriorMuseum": "สตาร์ดิวอควาเรียม",
 
 	// Maps: Stardew Valley Expanded
 	"location.Custom_AdventurerSummit": "ยอดเขาของนักผจญภัย",
@@ -344,5 +364,52 @@
 	"location.Custom_JunimoWoods": "ป่าจูนิโม่",
 	//"location.Custom_MorrisProperty": "",
 	"location.Custom_ShearwaterBridge": "สะพานเชียร์วอเทอร์",
-	"location.Custom_SpriteSpring2": "น้ำพุแห่งภูต"
+	"location.Custom_SpriteSpring2": "น้ำพุแห่งภูต",
+	"location.Custom_GrampletonSuburbs": "Grampleton Suburbs",
+	"location.Custom_GrampletonSuburbsTrainStation": "Grampleton Suburbs Train Station",
+
+	// Maps: East Scarpe
+	"location.Custom_EastScarpe": "East Scarp",
+	"location.Custom_EastScarpe.0": "Pond",
+	"location.Custom_EastScarpe.1": "Tide Pools",
+	"location.Custom_EastScarpe.2": "Ocean",
+	"location.Custom_ESDeepDark": "East Scarp (Deep Dark)",
+	"location.Custom_ESDeepMountains": "Deep Mountains",
+	"location.Custom_ESClearingHouse": "Vineyard",
+	"location.Custom_ESMeadowFarm": "Meadow Farm",
+	"location.Custom_ESVineyard": "Vineyard",
+	"location.Custom_ESMineEntrance": "East Scarp (Mines Entrance)",
+	"location.Custom_ESSeaCave": "East Scarp (Sea Cave)",
+	"location.Custom_ESSmugglerDen": "Smuggler's Den",
+	"location.Custom_ESOrchard": "Cherry Orchard",
+
+	// Maps: Ridgeside Village
+	"location.Custom_Ridgeside_RidgesideVillage": "Ridgeside Village",
+	"location.Custom_Ridgeside_RSVSewers": "Ridgeside Village (Sewers)",
+	"location.Custom_Ridgeside_Ridge": "The Ridge",
+	"location.Custom_Ridgeside_RidgeFalls": "Ridge Falls",
+	"location.Custom_Ridgeside_RidgeForest": "Ridge Forest",
+	"location.Custom_Ridgeside_RidgePond": "Ridge Pond",
+	"location.Custom_Ridgeside_SummitFarm": "Summit Farm",
+
+	// Maps: Downtown Zuzu
+	"location.Custom_DTZ_Forest1": "Zuzu Forest",
+	"location.Custom_DTZ_Forest2": "Zuzu Forest",
+	//"location.Custom_DTZ_Forest1.1": "",
+	"location.Custom_DTZ_ResortSouth": "Kahuna Resort",
+	"location.Custom_DTZ_ZuzuCityOasis1": "Zuzu Desert",
+	"location.Custom_DTZ_Waterway": "Zuzu City",
+
+	// Maps: Dam
+	"location.Custom_Dam": "The Dam",
+	//"location.Custom_Dam_AfforestationArea": "Dam Afforestation Area",
+	//"location.Custom_Dam_Cliff": "Cliff Near the Dam",
+	//"location.Custom_Dam_Road": "Road to the Dam",
+
+	// Maps: Flooded Cave
+	"location.Custom_Flooded_Cave": "Flooded Cave",
+
+	// Maps: Tristan
+	"location.Custom_LK_SecretCave": "Secret Woods (Cave)",
+	"location.Custom_LK_FairyPool": "Secret Woods (Fairy Pool)"
 }
