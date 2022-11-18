@@ -1,5 +1,14 @@
 {
     "Changes": [
+        // non-thai
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "spring_1_1": "^[letterbg {{InternalAssetKey: assets/Internal/LooseSprites/letterBG.png}} 0][#]Please change language to Thai"
+            }
+        },
+
         // letter from the translation team
         {
             "Action": "EditData",
