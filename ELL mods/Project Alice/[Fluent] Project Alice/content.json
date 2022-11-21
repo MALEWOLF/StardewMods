@@ -90,6 +90,11 @@
             "LocalizedMod": "DaisyNiko.SVR3",
             "LocalizingSubdirectory": "StardewValleyReimagined3", // TODO
             "IgnoreMissingLocalizedMod": true
+        },
+        {
+            "LocalizedMod": "jltaylor-us.ToDew",
+            "LocalizingSubdirectory": "ToDew", // TODO
+            "IgnoreMissingLocalizedMod": true
         }
     ]
 }
