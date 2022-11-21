@@ -2,6 +2,11 @@
     "Format": "1.1.0",
     "AdditionalI18nPaths": [
         {
+            "LocalizedMod": "spacechase0.AdvancedSocialInteractions",
+            "LocalizingSubdirectory": "AdvancedSocialInteractions", // TODO
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
             "LocalizedMod": "spacechase0.AnotherHungerMod",
             "LocalizingSubdirectory": "AnotherHungerMod", // TODO
             "IgnoreMissingLocalizedMod": true
