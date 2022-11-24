@@ -12,6 +12,11 @@
             "IgnoreMissingLocalizedMod": true
         },
         {
+            "LocalizedMod": "spacechase0.BackstoryQuestionsFramework",
+            "LocalizingSubdirectory": "BackstoryQuestionsFramework", // TODO
+            "IgnoreMissingLocalizedMod": true
+        },
+        {
             "LocalizedMod": "hawkfalcon.BetterJunimos",
             "LocalizingSubdirectory": "BetterJunimos", // TODO
             "IgnoreMissingLocalizedMod": true
