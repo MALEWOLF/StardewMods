@@ -180,7 +180,7 @@
         // load data
         {
             "Action": "Load",
-            "Target": "Data/Achievements, Data/Blueprints, Data/Boots, Data/CookingRecipes, Data/EngagementDialogue, Data/ExtraDialogue, Data/FarmAnimals, Data/Fish, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/weapons",
+            "Target": "Data/Achievements, Data/Blueprints, Data/Boots, Data/CookingRecipes, Data/EngagementDialogue, Data/ExtraDialogue, Data/Fish, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes, Data/weapons",
             "FromFile": "assets/Content/{{Target}}.json",
             "When": {
                 "Language": "th"
@@ -643,7 +643,7 @@
         // load legacy file
         {
             "Action": "Load",
-            "Target": "Data/PaintData",
+            "Target": "Data/FarmAnimals, Data/PaintData",
             "FromFile": "assets/{{Branch}}/{{Target}}.json",
             "When": {
                 "Language": "th",
