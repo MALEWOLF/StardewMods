@@ -63,14 +63,14 @@
             "Value": "enabled"
         },
 
-        // branch
+        // game data
         {
-            "Name": "Branch",
-            "Value": "Content"
+            "Name": "GameData",
+            "Value": "GameData/Content"
         },
         {
-            "Name": "Branch",
-            "Value": "Compatibility",
+            "Name": "GameData",
+            "Value": "GameData/Compatibility",
             "When": {
                 "LegacyMode |contains=enabled": true
             }
@@ -202,7 +202,7 @@
         {
             "Action": "Load",
             "Target": "Data/Bundles",
-            "FromFile": "assets/{{Branch}}/{{Target}}.json",
+            "FromFile": "assets/{{GameData}}/{{Target}}.json",
             "When": {
                 "Language": "th",
                 "HasFlag": "canReadJunimoText",
@@ -634,7 +634,7 @@
         {
             "Action": "Load",
             "Target": "Characters/Dialogue/Emily, Characters/Dialogue/Lewis, Data/Festivals/fall27, Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/winter8, Data/Festivals/winter25, Data/BigCraftablesInformation, Data/ClothingInformation, Data/Concessions, Data/Furniture, Data/hats, Data/mail, Data/ObjectInformation, Data/Quests, Data/SecretNotes",
-            "FromFile": "assets/{{Branch}}/{{Target}}.json",
+            "FromFile": "assets/{{GameData}}/{{Target}}.json",
             "When": {
                 "Language": "th"
             }
@@ -644,7 +644,7 @@
         {
             "Action": "Load",
             "Target": "Data/FarmAnimals, Data/PaintData, Data/weapons, Strings/Weapons",
-            "FromFile": "assets/{{Branch}}/{{Target}}.json",
+            "FromFile": "assets/{{GameData}}/{{Target}}.json",
             "When": {
                 "Language": "th",
                 "HasFile: {{FromFile}}": true
