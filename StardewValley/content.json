@@ -66,11 +66,11 @@
         // game data
         {
             "Name": "GameData",
-            "Value": "GameData/Content"
+            "Value": "Content"
         },
         {
             "Name": "GameData",
-            "Value": "GameData/Compatibility",
+            "Value": "Compatibility",
             "When": {
                 "LegacyMode |contains=enabled": true
             }
