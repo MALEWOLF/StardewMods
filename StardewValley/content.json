@@ -640,25 +640,14 @@
             }
         },
 
-        // load weapon names/descriptions
+        // whether a file exists in the content pack folder given its path
         {
             "Action": "Load",
-            "Target": "Strings/Weapons",
-            "FromFile": "assets/Content/{{Target}}.json",
-            "When": {
-                "Language": "th",
-                "LegacyMode |contains=enabled": false
-            }
-        },
-
-        // load legacy file
-        {
-            "Action": "Load",
-            "Target": "Data/FarmAnimals, Data/PaintData, Data/weapons",
+            "Target": "Data/FarmAnimals, Data/PaintData, Data/weapons, Strings/Weapons",
             "FromFile": "assets/{{Branch}}/{{Target}}.json",
             "When": {
                 "Language": "th",
-                "LegacyMode |contains=enabled": true
+                "HasFile: {{FromFile}}": true
             }
         },
 
