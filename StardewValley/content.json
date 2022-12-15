@@ -191,7 +191,7 @@
         {
             "Action": "Load",
             "Target": "Data/Bundles",
-            "FromFile": "assets/Content/{{Target}}.json",
+            "FromFile": "assets/{{GameData}}/{{Target}}.json",
             "When": {
                 "Language": "th",
                 "LegacyMode |contains=enabled": false
