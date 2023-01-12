@@ -5,12 +5,12 @@
             "Action": "EditData",
             "Target": "Strings/UI",
             "Entries": {
-                "Character_EyeColor.mobile": "Eye \nColor",
-                "Character_HairColor.mobile": "Hair\nColor",
-                "Character_PantsColor.mobile": "Pants\nColor",
-                "Character_ShirtColor.mobile": "Shirt\nColor",
-                "DisplayAdjustmentButton": "Adjust Screen Size",
-                "Split_Screen": "Split Screen",
+                "Character_EyeColor.mobile": "สีตา",
+                "Character_HairColor.mobile": "สีผม",
+                "Character_PantsColor.mobile": "สีกางเกง",
+                "Character_ShirtColor.mobile": "สีเสื้อ",
+                "DisplayAdjustmentButton": "ปรับขนาดหน้าจอ",
+                "Split_Screen": "แยกหน้าจอ",
                 "About_Credit_Mobile": "\n= สร้างโดย ConcernedApe\n< พอร์ตโดย Sickhead Games\n= ปรับเนื้อหาโดย Playism & LocalizeDirect\n      ",
                 "mobile_options_vertical_toolbar": "แถบเครื่องมือแนวตั้ง",
                 "mobile_options_menu_side_margin": "เลื่อนในเมนู",
@@ -82,8 +82,8 @@
                 "save_error": "การบันทึกมีข้อผิดพลาด",
                 "show_camerabutton": "แสดงปุ่มกล้อง",
                 "save_version_incompatible": "การบันทึกนี้ ไม่สามารถเข้ากันได้กับ Stardew Valley เวอร์ชันนี้ โปรดอัปเดตเกมของคุณ เมื่ออัปเดต 1.4 พร้อมเปิดให้ดาวน์โหลด บนอุปกรณ์ของคุณ",
-                "select_building": "Select a building",
-                "android_storage_migration": "Stardew Valley needs to perform a one time copy of your farms to a new location for the 1.5 update of the game.\n\t  \nIn the following screen please select the `StardewValley` folder and tap 'Use this folder'."
+                "select_building": "เลือกอาคาร",
+                "android_storage_migration": "Stardew Valley ต้องทำสำเนาฟาร์มของคุณ 1 ครั้ง ไปยังตำแหน่งใหม่สำหรับการอัปเดตเกม 1.5\n\t  \nในหน้าจอต่อไปนี้ โปรดเลือกโฟลเดอร์ `StardewValley` แล้วแตะ 'Use this folder'"
             },
             "When": {
                 "Language": "th"
