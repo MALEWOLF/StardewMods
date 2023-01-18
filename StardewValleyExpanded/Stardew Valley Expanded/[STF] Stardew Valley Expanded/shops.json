@@ -462,7 +462,7 @@
 	"ShopName": "MartinShop",
 	"PortraitPath": "Assets/Joja/Martin_Vendor.png",
 	"StoreCurrency": "Money",
-	"Quote": "สวัสดี มีอะไรให้ช่วยมั้ยครับ?",
+	"Quote": "สวัสดี มีอะไรให้ช่วยไหมครับ?",
 
 	"ItemStocks": [
 		{
@@ -1236,7 +1236,7 @@
 	"ShopName": "IsaacVendor",
 	"PortraitPath": "Assets/Adventurers/Isaac_Vendor.png",
 	"StoreCurrency": "Money",
-	"Quote": "เตรียมเงินมาพอใช่มั้ย?",
+	"Quote": "เตรียมเงินมาพอใช่ไหม?",
 
 	"ItemStocks": [
 		{

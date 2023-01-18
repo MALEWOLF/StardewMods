@@ -879,7 +879,7 @@
         "Sound": "",
         "MessageDelay": 500,
         "Script": "/specificTemporarySprite movieFrame 7 7 80/pause 50/specificTemporarySprite movieFrame 7 8 80/pause 50/specificTemporarySprite movieFrame 7 9 80/pause 50/pause 2000/playSound rainsound/pause 1000",
-        "Text": "'เธอได้ยินมั้ย..? ฉันคิดว่ามันดังมาจากในป่า... ไปดูกันเถอะ...'",
+        "Text": "'เธอได้ยินไหม..? ฉันคิดว่ามันดังมาจากในป่า... ไปดูกันเถอะ...'",
         "Shake": false,
         "ResponsePoint": null,
         "ID": "fall1_2"

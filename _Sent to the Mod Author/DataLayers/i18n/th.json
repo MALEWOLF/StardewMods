@@ -7,7 +7,7 @@
     "accessible.warp": "วาร์ป",
 
     // buildable
-    "buildable.name": "สร้างตรงนี้ได้มั้ย",
+    "buildable.name": "สร้างตรงนี้ได้ไหม",
     "buildable.buildable": "สร้างไปเถอะ",
     "buildable.occupied": "มีอะไรมาขวางการก่อสร้าง",
     "buildable.not-buildable": "สร้างไม่ได้แน่นอน",
@@ -55,7 +55,7 @@
     "crop-fertilizer.multiple": "มีปุ๋ยรวมกันหลายชนิด",
 
     // machine processing
-    "machines.name": "เครื่องจักรกำลังทำงานอยู่มั้ย",
+    "machines.name": "เครื่องจักรกำลังทำงานอยู่ไหม",
     "machines.empty": "ว่างงาน",
     "machines.processing": "ทำงานอยู่",
     "machines.finished": "เสร็จแล้วค้าบ",
@@ -64,7 +64,7 @@
     "grid.name": "เส้นตาราง",
 
     // tillable
-    "tillable.name": "ตรงนี้ขุดได้มั้ย",
+    "tillable.name": "ตรงนี้ขุดได้ไหม",
     "tillable.tillable": "ขุดได้เลย",
     "tillable.tilled": "ขุดไปแล้ว",
     "tillable.occupied": "มีอะไรมาขวางการขุด",
