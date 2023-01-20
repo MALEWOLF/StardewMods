@@ -1,7 +1,7 @@
 ﻿{
     // appearance
-    "config.section.Appearance.name": "สิ่งที่ปรากฎ",
-    "config.section.Appearance.description": "สิ่งที่ปรากฎในเกม",
+    "config.section.Appearance.name": "สิ่งที่ปรากฏ",
+    "config.section.Appearance.description": "สิ่งที่ปรากฏในเกม",
     "config.ThaiInterface.name": "อินเตอร์เฟซภาษาไทย",
     "config.ThaiInterface.description": "ป้ายร้านค้าและเอกสารต่างๆ ภายในเกมเป็นภาษาไทย",
     "config.TidyCraftingMenu.name": "จัดระเบียบเมนูการคราฟ",
