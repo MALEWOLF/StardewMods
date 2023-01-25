@@ -180,7 +180,7 @@
         // load data
         {
             "Action": "Load",
-            "Target": "Data/Achievements, Data/Blueprints, Data/Boots, Data/CookingRecipes, Data/EngagementDialogue, Data/ExtraDialogue, Data/Fish, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCDispositions, Data/NPCGiftTastes",
+            "Target": "Data/Achievements, Data/Blueprints, Data/Boots, Data/CookingRecipes, Data/EngagementDialogue, Data/ExtraDialogue, Data/Fish, Data/Monsters, Data/Movies, Data/MoviesReactions, Data/NPCGiftTastes",
             "FromFile": "assets/Content/{{Target}}.json",
             "When": {
                 "Language": "th"
@@ -643,7 +643,7 @@
         // whether a file exists in the content pack folder given its path
         {
             "Action": "Load",
-            "Target": "Data/FarmAnimals, Data/PaintData, Data/weapons, Strings/Weapons",
+            "Target": "Data/FarmAnimals, Data/NPCDispositions, Data/PaintData, Data/weapons, Strings/Weapons",
             "FromFile": "assets/{{GameData}}/{{Target}}.json",
             "When": {
                 "Language": "th",
